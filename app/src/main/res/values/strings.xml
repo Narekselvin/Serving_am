@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">My Food App</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="my_restaurant">My Restaurant App</string>
+    <string name="hello_explore_your_dream_food">Hello, Explore Your Dream Food</string>
+    <string name="register">Register</string>
+    <string name="sign_in">Sign in</string>
+    <string name="ful_name">Full Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="already_registered">Already Registered ?</string>
+    <string name="don_t_have_an_account">Don\'t Have An Account?</string>
+    <string name="daily_meal">Daily Meal</string>
+    <string name="favourite">Favourite</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="my_cart">My Cart</string>
+    <string name="narek">Narek</string>
+    <string name="narek_selvinazyan_gmail_com">Narek.selvinazyan@gmail.com</string>
+    <string name="log_out">Log Out</string>
+    <string name="search_your_food">Search Your Food!</string>
+    <string name="hello_narek">Hello Narek</string>
+    <string name="what_do_you_want">What do you want ?</string>
+    <string name="pizza">Pizza</string>
+    <string name="telephone_number">Telephone number</string>
+    <string name="mail">Mail</string>
+    <string name="phone_number">Phone number</string>
+    <string name="user">User</string>
+    <string name="hello">Hello</string>
+    <string name="product_name">Product Name</string>
+    <string name="_5_0">5.0</string>
+    <string name="_10_00_23_00">10:00 - 23:00</string>
+    <string name="min_45">Min - $45</string>
+    <string name="serving_am">Serving.am</string>
+    <string name="erevan_s_eat">Erevan\'s Eat</string>
+    <string name="_10_00_7_00">10:00 - 7:00</string>
+    <string name="description">Description</string>
+    <string name="_10_delicious_recipes_for_your_weekend_dinner">10 Delicious Recipes for your weekend dinner</string>
+    <string name="view_more">View more</string>
+    <string name="description_here">Description Here</string>
+    <string name="food_name">Food Name</string>
+    <string name="recipes">Recipes</string>
+</resources>

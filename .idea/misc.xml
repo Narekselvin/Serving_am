@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/MI/Desktop/MyFoodApp(0)/app/src/main/res/layout/activity_detailed_daily_meal.xml" value="0.1796875" />
+        <entry key="..\:/Users/MI/Desktop/MyFoodApp(0)/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
+        <entry key="..\:/Users/MI/Desktop/MyFoodApp(0)/app/src/main/res/layout/cart_item.xml" value="0.4707646176911544" />
+        <entry key="..\:/Users/MI/Desktop/MyFoodApp(0)/app/src/main/res/layout/content_main.xml" value="0.1796875" />
+        <entry key="..\:/Users/MI/Desktop/MyFoodApp(0)/app/src/main/res/layout/daily_meal_fragment.xml" value="0.1796875" />
+        <entry key="..\:/Users/MI/Desktop/MyFoodApp(0)/app/src/main/res/layout/daily_meal_item.xml" value="0.1796875" />
+        <entry key="..\:/Users/MI/Desktop/MyFoodApp(0)/app/src/main/res/layout/detailed_daily_meal_item.xml" value="0.335" />
+        <entry key="..\:/Users/MI/Desktop/MyFoodApp(0)/app/src/main/res/layout/featured_hor_item.xml" value="0.1796875" />
+        <entry key="..\:/Users/MI/Desktop/MyFoodApp(0)/app/src/main/res/layout/featured_ver_item.xml" value="0.1796875" />
+        <entry key="..\:/Users/MI/Desktop/MyFoodApp(0)/app/src/main/res/layout/fragment_favourite.xml" value="0.1796875" />
+        <entry key="..\:/Users/MI/Desktop/MyFoodApp(0)/app/src/main/res/layout/fragment_first.xml" value="0.1796875" />
+        <entry key="..\:/Users/MI/Desktop/MyFoodApp(0)/app/src/main/res/layout/fragment_home.xml" value="0.335" />
+        <entry key="..\:/Users/MI/Desktop/MyFoodApp(0)/app/src/main/res/layout/fragment_my_cart.xml" value="0.1796875" />
+        <entry key="..\:/Users/MI/Desktop/MyFoodApp(0)/app/src/main/res/layout/fragment_second.xml" value="0.1796875" />
+        <entry key="..\:/Users/MI/Desktop/MyFoodApp(0)/app/src/main/res/layout/fragment_third.xml" value="0.1796875" />
+        <entry key="..\:/Users/MI/Desktop/MyFoodApp(0)/app/src/main/res/layout/home_horizontal_item.xml" value="0.335" />
+        <entry key="..\:/Users/MI/Desktop/MyFoodApp(0)/app/src/main/res/layout/home_vertical_item.xml" value="0.335" />
+        <entry key="..\:/Users/MI/Desktop/MyFoodApp(0)/app/src/main/res/layout/my_cart_fragment_items.xml" value="0.335" />
+        <entry key="..\:/Users/MI/Desktop/MyFoodApp(0)/app/src/main/res/menu/activity_main_drawer.xml" value="0.1796875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

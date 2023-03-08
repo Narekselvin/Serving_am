@@ -1,0 +1,106 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:padding="8dp">
+
+    <!-- Item Image -->
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/item_image"
+        app:riv_corner_radius="24dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/burger1"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <!-- Item Name -->
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Item Name"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/item_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintVertical_bias="0.3"/>
+
+    <!-- Item Price -->
+    <TextView
+        android:id="@+id/tv_price"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Item Price"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/tv_name"
+        app:layout_constraintStart_toEndOf="@id/item_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintVertical_bias="0.7"/>
+
+    <!-- Quantity Editor -->
+    <!-- quantity_editor_layout.xml -->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="236dp"
+        android:layout_height="49dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/item_image"
+        app:layout_constraintTop_toBottomOf="@+id/tv_price">
+
+        <!-- Decrease Button -->
+
+        <!-- Quantity Text -->
+
+        <Button
+            android:id="@+id/quantity_increase_button"
+            android:layout_width="61dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="12dp"
+            android:background="@null"
+            android:text="+"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/quantity_text"
+            android:layout_width="56dp"
+            android:layout_height="34dp"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/quantity_decrease_button"
+            app:layout_constraintStart_toEndOf="@id/quantity_increase_button"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- Increase Button -->
+        <Button
+            android:id="@+id/quantity_decrease_button"
+            android:layout_width="61dp"
+            android:layout_height="36dp"
+            android:layout_marginEnd="16dp"
+            android:background="@null"
+            android:text="-"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
